@@ -1,0 +1,21 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.flex {
+ background-color: #00c7ce;
+ height: 50vh;
+ padding: 10px;
+ display: flex;
+ justify-content: center; /* 小要素の横並び・中央寄せ */
+ align-items: center; /* アイテムの中央寄せ */
+}
+
+.flex > div {
+ background-color: #fff;
+ margin: 5px;
+ font-size: 30px;
+}
+
